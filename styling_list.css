@@ -1,0 +1,10 @@
+#unordered-list{
+  list-style-type: square;
+  /* padding: 0; */
+}
+
+#ordered-list{
+  list-style-type: upper-roman;
+  width: 50%;
+  list-style-position:none ;
+}
