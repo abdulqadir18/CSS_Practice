@@ -1,0 +1,36 @@
+header{
+  background-color: red;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+
+footer{
+  background-color: blue;
+  height: 200px;
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+aside{
+  margin-left: 5%;
+  background-color: chartreuse;
+  height: 750px;
+  width: 29%;
+  display: inline-block;
+}
+
+section{
+  margin-right: 20%;
+  background-color: deeppink;
+  height: 750px;
+  width: 45%;
+  display: inline-block;
+}
