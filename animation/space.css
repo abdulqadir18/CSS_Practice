@@ -1,0 +1,22 @@
+body{
+  background-image: url('space.jpg');
+  background-size: cover;
+  margin: 0;
+}
+
+div{
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: udaan 5s;
+}
+
+@keyframes udaan{
+  0%{
+    transform: translate(-50%,0);
+  }
+  100%{
+    transform: translate(-50%,-100vh);
+  }
+}
